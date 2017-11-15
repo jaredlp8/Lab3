@@ -12,7 +12,9 @@ public class Lab3Exercises {
 		int width = (int) screenSize.getWidth(); 
 		int height = (int) screenSize.getHeight();
 		myFrame.setLocation((width/2) -100, (height/2) -100); // set location to the center of the screen
-		myFrame.setSize(200, 200);
+		myFrame.setSize(250, 166);
+		MyPanelClass myPanel = new MyPanelClass();
+        myFrame.getContentPane().add(myPanel);
 		myFrame.setVisible(true);
 	}
 }
